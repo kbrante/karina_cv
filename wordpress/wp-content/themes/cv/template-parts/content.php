@@ -45,3 +45,12 @@
 		<?php cv_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+
+<?php
+   foreach ($posts as $post) {
+    setup_postdata($post);
+     ?>
+
+     <p><a href= <?php the_permalink(); ?>><?php the_title(); ?></a></p>
+     <p><?php the_content(); ?></p>
+     <?php } ?><!--loop for search the posts-->

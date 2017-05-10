@@ -893,3 +893,7 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+.tag{
+    background-color:red;
+}
