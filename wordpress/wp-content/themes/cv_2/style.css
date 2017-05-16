@@ -19,3 +19,6 @@ h3 {
 p {
     text-align: justify;
 }
+a:visited {
+    color: #b9c639;
+}
