@@ -1,0 +1,21 @@
+/* Theme Name: cv_2
+Author: karina
+Description: Theme CV.
+*/
+
+body {
+    background-color: #3164ba;
+
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+}
+h3 {
+    font-size: 2em;
+    text-transform: capitalize;
+}
+p {
+    text-align: justify;
+}
