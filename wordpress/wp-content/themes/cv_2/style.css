@@ -2,9 +2,14 @@
 Author: karina
 Description: Theme CV.
 */
-
-body {
+.container {
+    box-shadow:  0px 0px 5px 0px #656565;
     background-color: #226666;
+
+}
+body {
+
+    font-family: 'Oswald', sans-serif;
 
 }
 h2 {
@@ -50,8 +55,8 @@ a:visited {
     justify-content: center;
 }
 #social_nav li {
-    margin: 2em;
-    font-size: 15px;
+    margin: 1em;
+    font-size: 30px;
 }
 footer p {
     text-align: center;

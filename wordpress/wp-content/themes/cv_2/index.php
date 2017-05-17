@@ -25,7 +25,12 @@ get_header();
 
             ?>
             <?php
-            $args = array('category_name' => "formation" );
+            $args = array(  'category_name'    => "formation",
+                            'meta_key'         => 'Date debut',
+	                        'meta_value'       => '',
+                            'orderby'          => "date",
+                            'order'            => 'ASC'
+                            );
             $posts = get_posts($args);
             ?>
             <h2 id="formation">Formation</h2>
