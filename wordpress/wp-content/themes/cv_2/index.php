@@ -29,7 +29,7 @@ get_header();
                             'meta_key'         => 'Date debut',
 	                        'meta_value'       => '',
                             'orderby'          => "date",
-                            'order'            => 'ASC'
+                            'order'            => 'DESC'
                             );
             $posts = get_posts($args);
             ?>
