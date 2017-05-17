@@ -34,7 +34,6 @@ get_header();
             ?>
         </div>
     </div>
-</div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
 <?php
 get_footer();

@@ -34,11 +34,11 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
                                 <li class=""><a href="#loisirs">loisirs <span class="sr-only">(current)</span></a></li>
-                                <li><a href="#competence">competence</a></li>
-                                <li><a href="#formation">formation</a></li>
+                                <li><a href="#competence">competences</a></li>
+                                <li><a href="#formation">formations</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
-                    </div><!-- /.container-fluid -->
+
                 </nav>
             </header>
         </div>

@@ -5,7 +5,7 @@ Description: Theme CV.
 
 body {
     background-color: #226666;
-    
+
 }
 h2 {
     text-transform: uppercase;
@@ -21,5 +21,38 @@ p {
     text-align: justify;
 }
 a:visited {
-    color: #b9c639;
+    color: #669999;
+}
+.navbar-default {
+    border-color: #003333;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #003333;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #407F7F;
+}
+.nav > li {
+    text-transform: capitalize;
+}
+.nav > li a {
+    color: #003333;
+
+}
+#bs-example-navbar-collapse-1,
+.container-fluid {
+    background-color: #669999;
+    border: none;
+}
+#social_nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+#social_nav li {
+    margin: 2em;
+    font-size: 15px;
+}
+footer p {
+    text-align: center;
 }
